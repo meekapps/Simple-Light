@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		41C9BFBB146074B100F83536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBA146074B100F83536 /* UIKit.framework */; };
+		41C9BFBD146074B100F83536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBC146074B100F83536 /* Foundation.framework */; };
+		41C9BFBF146074B100F83536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBE146074B100F83536 /* CoreGraphics.framework */; };
+		41C9BFC5146074B100F83536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C9BFC3146074B100F83536 /* InfoPlist.strings */; };
+		41C9BFC7146074B100F83536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFC6146074B100F83536 /* main.m */; };
+		41C9BFCB146074B100F83536 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFCA146074B100F83536 /* SLAppDelegate.m */; };
+		41C9BFCE146074B100F83536 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C9BFCC146074B100F83536 /* MainStoryboard.storyboard */; };
+		41C9BFD1146074B100F83536 /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFD0146074B100F83536 /* SLViewController.m */; };
+		41C9BFD9146074B100F83536 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFD8146074B100F83536 /* SenTestingKit.framework */; };
+		41C9BFDA146074B100F83536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBA146074B100F83536 /* UIKit.framework */; };
+		41C9BFDB146074B100F83536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBC146074B100F83536 /* Foundation.framework */; };
+		41C9BFE3146074B100F83536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C9BFE1146074B100F83536 /* InfoPlist.strings */; };
+		41C9BFE6146074B100F83536 /* Simple_LightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFE5146074B100F83536 /* Simple_LightTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		41C9BFDC146074B100F83536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 41C9BFAD146074B100F83536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41C9BFB5146074B100F83536;
+			remoteInfo = "Simple Light";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		41C9BFB6146074B100F83536 /* Simple Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C9BFBA146074B100F83536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		41C9BFBC146074B100F83536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		41C9BFBE146074B100F83536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		41C9BFC2146074B100F83536 /* Simple Light-Info.plist */ = {isa = PBXFileReference; path = "Simple Light-Info.plist"; sourceTree = "<group>"; };
+		41C9BFC4146074B100F83536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C9BFC6146074B100F83536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		41C9BFC8146074B100F83536 /* Simple Light-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Light-Prefix.pch"; sourceTree = "<group>"; };
+		41C9BFC9146074B100F83536 /* SLAppDelegate.h */ = {isa = PBXFileReference; path = SLAppDelegate.h; sourceTree = "<group>"; };
+		41C9BFCA146074B100F83536 /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
+		41C9BFCD146074B100F83536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		41C9BFCF146074B100F83536 /* SLViewController.h */ = {isa = PBXFileReference; path = SLViewController.h; sourceTree = "<group>"; };
+		41C9BFD0146074B100F83536 /* SLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		41C9BFD7146074B100F83536 /* Simple LightTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple LightTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		41C9BFD8146074B100F83536 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		41C9BFE0146074B100F83536 /* Simple LightTests-Info.plist */ = {isa = PBXFileReference; path = "Simple LightTests-Info.plist"; sourceTree = "<group>"; };
+		41C9BFE2146074B100F83536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		41C9BFE4146074B100F83536 /* Simple_LightTests.h */ = {isa = PBXFileReference; path = Simple_LightTests.h; sourceTree = "<group>"; };
+		41C9BFE5146074B100F83536 /* Simple_LightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_LightTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41C9BFB3146074B100F83536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9BFBB146074B100F83536 /* UIKit.framework in Frameworks */,
+				41C9BFBD146074B100F83536 /* Foundation.framework in Frameworks */,
+				41C9BFBF146074B100F83536 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C9BFD3146074B100F83536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9BFD9146074B100F83536 /* SenTestingKit.framework in Frameworks */,
+				41C9BFDA146074B100F83536 /* UIKit.framework in Frameworks */,
+				41C9BFDB146074B100F83536 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41C9BFAB146074B100F83536 = {
+			isa = PBXGroup;
+			children = (
+				41C9BFC0146074B100F83536 /* Simple Light */,
+				41C9BFDE146074B100F83536 /* Simple LightTests */,
+				41C9BFB9146074B100F83536 /* Frameworks */,
+				41C9BFB7146074B100F83536 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41C9BFB7146074B100F83536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41C9BFB6146074B100F83536 /* Simple Light.app */,
+				41C9BFD7146074B100F83536 /* Simple LightTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41C9BFB9146074B100F83536 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				41C9BFBA146074B100F83536 /* UIKit.framework */,
+				41C9BFBC146074B100F83536 /* Foundation.framework */,
+				41C9BFBE146074B100F83536 /* CoreGraphics.framework */,
+				41C9BFD8146074B100F83536 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		41C9BFC0146074B100F83536 /* Simple Light */ = {
+			isa = PBXGroup;
+			children = (
+				41C9BFC9146074B100F83536 /* SLAppDelegate.h */,
+				41C9BFCA146074B100F83536 /* SLAppDelegate.m */,
+				41C9BFCC146074B100F83536 /* MainStoryboard.storyboard */,
+				41C9BFCF146074B100F83536 /* SLViewController.h */,
+				41C9BFD0146074B100F83536 /* SLViewController.m */,
+				41C9BFC1146074B100F83536 /* Supporting Files */,
+			);
+			path = "Simple Light";
+			sourceTree = "<group>";
+		};
+		41C9BFC1146074B100F83536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C9BFC2146074B100F83536 /* Simple Light-Info.plist */,
+				41C9BFC3146074B100F83536 /* InfoPlist.strings */,
+				41C9BFC6146074B100F83536 /* main.m */,
+				41C9BFC8146074B100F83536 /* Simple Light-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		41C9BFDE146074B100F83536 /* Simple LightTests */ = {
+			isa = PBXGroup;
+			children = (
+				41C9BFE4146074B100F83536 /* Simple_LightTests.h */,
+				41C9BFE5146074B100F83536 /* Simple_LightTests.m */,
+				41C9BFDF146074B100F83536 /* Supporting Files */,
+			);
+			path = "Simple LightTests";
+			sourceTree = "<group>";
+		};
+		41C9BFDF146074B100F83536 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				41C9BFE0146074B100F83536 /* Simple LightTests-Info.plist */,
+				41C9BFE1146074B100F83536 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41C9BFB5146074B100F83536 /* Simple Light */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C9BFE9146074B100F83536 /* Build configuration list for PBXNativeTarget "Simple Light" */;
+			buildPhases = (
+				41C9BFB2146074B100F83536 /* Sources */,
+				41C9BFB3146074B100F83536 /* Frameworks */,
+				41C9BFB4146074B100F83536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Simple Light";
+			productName = "Simple Light";
+			productReference = 41C9BFB6146074B100F83536 /* Simple Light.app */;
+			productType = "com.apple.product-type.application";
+		};
+		41C9BFD6146074B100F83536 /* Simple LightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41C9BFEC146074B100F83536 /* Build configuration list for PBXNativeTarget "Simple LightTests" */;
+			buildPhases = (
+				41C9BFD2146074B100F83536 /* Sources */,
+				41C9BFD3146074B100F83536 /* Frameworks */,
+				41C9BFD4146074B100F83536 /* Resources */,
+				41C9BFD5146074B100F83536 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				41C9BFDD146074B100F83536 /* PBXTargetDependency */,
+			);
+			name = "Simple LightTests";
+			productName = "Simple LightTests";
+			productReference = 41C9BFD7146074B100F83536 /* Simple LightTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41C9BFAD146074B100F83536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 41C9BFB0146074B100F83536 /* Build configuration list for PBXProject "Simple Light" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 41C9BFAB146074B100F83536;
+			productRefGroup = 41C9BFB7146074B100F83536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41C9BFB5146074B100F83536 /* Simple Light */,
+				41C9BFD6146074B100F83536 /* Simple LightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41C9BFB4146074B100F83536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9BFC5146074B100F83536 /* InfoPlist.strings in Resources */,
+				41C9BFCE146074B100F83536 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C9BFD4146074B100F83536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9BFE3146074B100F83536 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		41C9BFD5146074B100F83536 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41C9BFB2146074B100F83536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9BFC7146074B100F83536 /* main.m in Sources */,
+				41C9BFCB146074B100F83536 /* SLAppDelegate.m in Sources */,
+				41C9BFD1146074B100F83536 /* SLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41C9BFD2146074B100F83536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41C9BFE6146074B100F83536 /* Simple_LightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		41C9BFDD146074B100F83536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 41C9BFB5146074B100F83536 /* Simple Light */;
+			targetProxy = 41C9BFDC146074B100F83536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		41C9BFC3146074B100F83536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C9BFC4146074B100F83536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		41C9BFCC146074B100F83536 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C9BFCD146074B100F83536 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		41C9BFE1146074B100F83536 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41C9BFE2146074B100F83536 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41C9BFE7146074B100F83536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		41C9BFE8146074B100F83536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41C9BFEA146074B100F83536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Light/Simple Light-Prefix.pch";
+				INFOPLIST_FILE = "Simple Light/Simple Light-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		41C9BFEB146074B100F83536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Light/Simple Light-Prefix.pch";
+				INFOPLIST_FILE = "Simple Light/Simple Light-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		41C9BFED146074B100F83536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Light.app/Simple Light";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Light/Simple Light-Prefix.pch";
+				INFOPLIST_FILE = "Simple LightTests/Simple LightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		41C9BFEE146074B100F83536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Simple Light.app/Simple Light";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Simple Light/Simple Light-Prefix.pch";
+				INFOPLIST_FILE = "Simple LightTests/Simple LightTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41C9BFB0146074B100F83536 /* Build configuration list for PBXProject "Simple Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C9BFE7146074B100F83536 /* Debug */,
+				41C9BFE8146074B100F83536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41C9BFE9146074B100F83536 /* Build configuration list for PBXNativeTarget "Simple Light" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C9BFEA146074B100F83536 /* Debug */,
+				41C9BFEB146074B100F83536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		41C9BFEC146074B100F83536 /* Build configuration list for PBXNativeTarget "Simple LightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41C9BFED146074B100F83536 /* Debug */,
+				41C9BFEE146074B100F83536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41C9BFAD146074B100F83536 /* Project object */;
+}
