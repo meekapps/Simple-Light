@@ -7,19 +7,56 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		410BEC32146245B3005A6916 /* icon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 410BEC31146245B3005A6916 /* icon57.png */; };
+		410BEC34146245B6005A6916 /* icon114.png in Resources */ = {isa = PBXBuildFile; fileRef = 410BEC33146245B6005A6916 /* icon114.png */; };
+		411ED6421461FF3300A28DFD /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 411ED6411461FF3300A28DFD /* AVFoundation.framework */; };
+		411ED65414620A0E00A28DFD /* brightness-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411ED65014620A0E00A28DFD /* brightness-normal@2x.png */; };
+		411ED65514620A0E00A28DFD /* brightness-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 411ED65114620A0E00A28DFD /* brightness-normal.png */; };
+		411ED65614620A0E00A28DFD /* brightness-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 411ED65214620A0E00A28DFD /* brightness-pressed.png */; };
+		411ED65714620A0E00A28DFD /* brightness-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411ED65314620A0E00A28DFD /* brightness-pressed@2x.png */; };
+		411ED65B1462153B00A28DFD /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 411ED65A1462153B00A28DFD /* Default@2x.png */; };
+		411ED65D1462155900A28DFD /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 411ED65C1462155900A28DFD /* Default.png */; };
+		41C2C29E14D77CC10041FF2A /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41C2C29D14D77CC10041FF2A /* ViewController.xib */; };
 		41C9BFBB146074B100F83536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBA146074B100F83536 /* UIKit.framework */; };
 		41C9BFBD146074B100F83536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBC146074B100F83536 /* Foundation.framework */; };
 		41C9BFBF146074B100F83536 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBE146074B100F83536 /* CoreGraphics.framework */; };
 		41C9BFC5146074B100F83536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C9BFC3146074B100F83536 /* InfoPlist.strings */; };
 		41C9BFC7146074B100F83536 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFC6146074B100F83536 /* main.m */; };
-		41C9BFCB146074B100F83536 /* SLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFCA146074B100F83536 /* SLAppDelegate.m */; };
-		41C9BFCE146074B100F83536 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41C9BFCC146074B100F83536 /* MainStoryboard.storyboard */; };
-		41C9BFD1146074B100F83536 /* SLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFD0146074B100F83536 /* SLViewController.m */; };
+		41C9BFCB146074B100F83536 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFCA146074B100F83536 /* AppDelegate.m */; };
+		41C9BFD1146074B100F83536 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFD0146074B100F83536 /* ViewController.m */; };
 		41C9BFD9146074B100F83536 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFD8146074B100F83536 /* SenTestingKit.framework */; };
 		41C9BFDA146074B100F83536 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBA146074B100F83536 /* UIKit.framework */; };
 		41C9BFDB146074B100F83536 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9BFBC146074B100F83536 /* Foundation.framework */; };
 		41C9BFE3146074B100F83536 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 41C9BFE1146074B100F83536 /* InfoPlist.strings */; };
 		41C9BFE6146074B100F83536 /* Simple_LightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 41C9BFE5146074B100F83536 /* Simple_LightTests.m */; };
+		41C9C01A14609E7300F83536 /* main-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C00D14609E7300F83536 /* main-pressed@2x.png */; };
+		41C9C01B14609E7300F83536 /* strobe-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C00E14609E7300F83536 /* strobe-highlighted@2x.png */; };
+		41C9C01C14609E7300F83536 /* strobe-pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C00F14609E7300F83536 /* strobe-pressed@2x.png */; };
+		41C9C01D14609E7300F83536 /* battery-0.75@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01014609E7300F83536 /* battery-0.75@2x.png */; };
+		41C9C01E14609E7300F83536 /* battery-1.0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01114609E7300F83536 /* battery-1.0@2x.png */; };
+		41C9C01F14609E7300F83536 /* battery-0.5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01214609E7300F83536 /* battery-0.5@2x.png */; };
+		41C9C02014609E7300F83536 /* battery-0.25@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01314609E7300F83536 /* battery-0.25@2x.png */; };
+		41C9C02114609E7300F83536 /* battery-0.0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01414609E7300F83536 /* battery-0.0@2x.png */; };
+		41C9C02214609E7300F83536 /* strobe-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01514609E7300F83536 /* strobe-normal@2x.png */; };
+		41C9C02514609E7300F83536 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01814609E7300F83536 /* background@2x.png */; };
+		41C9C02614609E7300F83536 /* light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C01914609E7300F83536 /* light@2x.png */; };
+		41C9C02814609E8100F83536 /* main-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C02714609E8100F83536 /* main-pressed.png */; };
+		41C9C02A14609E8900F83536 /* strobe-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C02914609E8900F83536 /* strobe-highlighted.png */; };
+		41C9C02C14609E9400F83536 /* strobe-pressed.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C02B14609E9400F83536 /* strobe-pressed.png */; };
+		41C9C02E14609E9E00F83536 /* battery-0.75.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C02D14609E9E00F83536 /* battery-0.75.png */; };
+		41C9C03014609EA900F83536 /* battery-1.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C02F14609EA900F83536 /* battery-1.0.png */; };
+		41C9C03214609EB500F83536 /* battery-0.5.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03114609EB500F83536 /* battery-0.5.png */; };
+		41C9C03414609ED400F83536 /* strobe-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03314609ED400F83536 /* strobe-normal.png */; };
+		41C9C03614609EFF00F83536 /* battery-0.25.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03514609EFF00F83536 /* battery-0.25.png */; };
+		41C9C03814609F0A00F83536 /* battery-0.0.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03714609F0A00F83536 /* battery-0.0.png */; };
+		41C9C03A14609F3800F83536 /* main-highlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03914609F3800F83536 /* main-highlighted.png */; };
+		41C9C03C14609F4600F83536 /* main-highlighted@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03B14609F4600F83536 /* main-highlighted@2x.png */; };
+		41C9C03F14609F7300F83536 /* main-normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03D14609F7300F83536 /* main-normal@2x.png */; };
+		41C9C04014609F7300F83536 /* main-normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C03E14609F7300F83536 /* main-normal.png */; };
+		41C9C04214609F9C00F83536 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C04114609F9C00F83536 /* light.png */; };
+		41C9C0451460AAC400F83536 /* callout.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C0431460AAC400F83536 /* callout.png */; };
+		41C9C0461460AAC400F83536 /* callout@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41C9C0441460AAC400F83536 /* callout@2x.png */; };
+		41C9C0481460ADCF00F83536 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41C9C0471460ADCF00F83536 /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,25 +70,62 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		410BEC31146245B3005A6916 /* icon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon57.png; path = ../icon57.png; sourceTree = "<group>"; };
+		410BEC33146245B6005A6916 /* icon114.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon114.png; path = ../icon114.png; sourceTree = "<group>"; };
+		411ED6411461FF3300A28DFD /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		411ED65014620A0E00A28DFD /* brightness-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightness-normal@2x.png"; sourceTree = "<group>"; };
+		411ED65114620A0E00A28DFD /* brightness-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightness-normal.png"; sourceTree = "<group>"; };
+		411ED65214620A0E00A28DFD /* brightness-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightness-pressed.png"; sourceTree = "<group>"; };
+		411ED65314620A0E00A28DFD /* brightness-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brightness-pressed@2x.png"; sourceTree = "<group>"; };
+		411ED65A1462153B00A28DFD /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		411ED65C1462155900A28DFD /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		41C2C29D14D77CC10041FF2A /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
 		41C9BFB6146074B100F83536 /* Simple Light.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Simple Light.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C9BFBA146074B100F83536 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		41C9BFBC146074B100F83536 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		41C9BFBE146074B100F83536 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		41C9BFC2146074B100F83536 /* Simple Light-Info.plist */ = {isa = PBXFileReference; path = "Simple Light-Info.plist"; sourceTree = "<group>"; };
+		41C9BFC2146074B100F83536 /* Simple Light-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple Light-Info.plist"; sourceTree = "<group>"; };
 		41C9BFC4146074B100F83536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		41C9BFC6146074B100F83536 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		41C9BFC8146074B100F83536 /* Simple Light-Prefix.pch */ = {isa = PBXFileReference; path = "Simple Light-Prefix.pch"; sourceTree = "<group>"; };
-		41C9BFC9146074B100F83536 /* SLAppDelegate.h */ = {isa = PBXFileReference; path = SLAppDelegate.h; sourceTree = "<group>"; };
-		41C9BFCA146074B100F83536 /* SLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLAppDelegate.m; sourceTree = "<group>"; };
-		41C9BFCD146074B100F83536 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		41C9BFCF146074B100F83536 /* SLViewController.h */ = {isa = PBXFileReference; path = SLViewController.h; sourceTree = "<group>"; };
-		41C9BFD0146074B100F83536 /* SLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SLViewController.m; sourceTree = "<group>"; };
+		41C9BFC8146074B100F83536 /* Simple Light-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Simple Light-Prefix.pch"; sourceTree = "<group>"; };
+		41C9BFC9146074B100F83536 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		41C9BFCA146074B100F83536 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		41C9BFCF146074B100F83536 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		41C9BFD0146074B100F83536 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		41C9BFD7146074B100F83536 /* Simple LightTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Simple LightTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		41C9BFD8146074B100F83536 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		41C9BFE0146074B100F83536 /* Simple LightTests-Info.plist */ = {isa = PBXFileReference; path = "Simple LightTests-Info.plist"; sourceTree = "<group>"; };
+		41C9BFE0146074B100F83536 /* Simple LightTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Simple LightTests-Info.plist"; sourceTree = "<group>"; };
 		41C9BFE2146074B100F83536 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		41C9BFE4146074B100F83536 /* Simple_LightTests.h */ = {isa = PBXFileReference; path = Simple_LightTests.h; sourceTree = "<group>"; };
+		41C9BFE4146074B100F83536 /* Simple_LightTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_LightTests.h; sourceTree = "<group>"; };
 		41C9BFE5146074B100F83536 /* Simple_LightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Simple_LightTests.m; sourceTree = "<group>"; };
+		41C9C00D14609E7300F83536 /* main-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-pressed@2x.png"; sourceTree = "<group>"; };
+		41C9C00E14609E7300F83536 /* strobe-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strobe-highlighted@2x.png"; sourceTree = "<group>"; };
+		41C9C00F14609E7300F83536 /* strobe-pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strobe-pressed@2x.png"; sourceTree = "<group>"; };
+		41C9C01014609E7300F83536 /* battery-0.75@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.75@2x.png"; sourceTree = "<group>"; };
+		41C9C01114609E7300F83536 /* battery-1.0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-1.0@2x.png"; sourceTree = "<group>"; };
+		41C9C01214609E7300F83536 /* battery-0.5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.5@2x.png"; sourceTree = "<group>"; };
+		41C9C01314609E7300F83536 /* battery-0.25@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.25@2x.png"; sourceTree = "<group>"; };
+		41C9C01414609E7300F83536 /* battery-0.0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.0@2x.png"; sourceTree = "<group>"; };
+		41C9C01514609E7300F83536 /* strobe-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strobe-normal@2x.png"; sourceTree = "<group>"; };
+		41C9C01814609E7300F83536 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		41C9C01914609E7300F83536 /* light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light@2x.png"; sourceTree = "<group>"; };
+		41C9C02714609E8100F83536 /* main-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-pressed.png"; sourceTree = "<group>"; };
+		41C9C02914609E8900F83536 /* strobe-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strobe-highlighted.png"; sourceTree = "<group>"; };
+		41C9C02B14609E9400F83536 /* strobe-pressed.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strobe-pressed.png"; sourceTree = "<group>"; };
+		41C9C02D14609E9E00F83536 /* battery-0.75.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.75.png"; sourceTree = "<group>"; };
+		41C9C02F14609EA900F83536 /* battery-1.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-1.0.png"; sourceTree = "<group>"; };
+		41C9C03114609EB500F83536 /* battery-0.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.5.png"; sourceTree = "<group>"; };
+		41C9C03314609ED400F83536 /* strobe-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "strobe-normal.png"; sourceTree = "<group>"; };
+		41C9C03514609EFF00F83536 /* battery-0.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.25.png"; sourceTree = "<group>"; };
+		41C9C03714609F0A00F83536 /* battery-0.0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "battery-0.0.png"; sourceTree = "<group>"; };
+		41C9C03914609F3800F83536 /* main-highlighted.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-highlighted.png"; sourceTree = "<group>"; };
+		41C9C03B14609F4600F83536 /* main-highlighted@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-highlighted@2x.png"; sourceTree = "<group>"; };
+		41C9C03D14609F7300F83536 /* main-normal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-normal@2x.png"; sourceTree = "<group>"; };
+		41C9C03E14609F7300F83536 /* main-normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "main-normal.png"; sourceTree = "<group>"; };
+		41C9C04114609F9C00F83536 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		41C9C0431460AAC400F83536 /* callout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = callout.png; sourceTree = "<group>"; };
+		41C9C0441460AAC400F83536 /* callout@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "callout@2x.png"; sourceTree = "<group>"; };
+		41C9C0471460ADCF00F83536 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +133,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				411ED6421461FF3300A28DFD /* AVFoundation.framework in Frameworks */,
+				41C9C0481460ADCF00F83536 /* QuartzCore.framework in Frameworks */,
 				41C9BFBB146074B100F83536 /* UIKit.framework in Frameworks */,
 				41C9BFBD146074B100F83536 /* Foundation.framework in Frameworks */,
 				41C9BFBF146074B100F83536 /* CoreGraphics.framework in Frameworks */,
@@ -100,6 +176,8 @@
 		41C9BFB9146074B100F83536 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				411ED6411461FF3300A28DFD /* AVFoundation.framework */,
+				41C9C0471460ADCF00F83536 /* QuartzCore.framework */,
 				41C9BFBA146074B100F83536 /* UIKit.framework */,
 				41C9BFBC146074B100F83536 /* Foundation.framework */,
 				41C9BFBE146074B100F83536 /* CoreGraphics.framework */,
@@ -111,11 +189,11 @@
 		41C9BFC0146074B100F83536 /* Simple Light */ = {
 			isa = PBXGroup;
 			children = (
-				41C9BFC9146074B100F83536 /* SLAppDelegate.h */,
-				41C9BFCA146074B100F83536 /* SLAppDelegate.m */,
-				41C9BFCC146074B100F83536 /* MainStoryboard.storyboard */,
-				41C9BFCF146074B100F83536 /* SLViewController.h */,
-				41C9BFD0146074B100F83536 /* SLViewController.m */,
+				41C9BFC9146074B100F83536 /* AppDelegate.h */,
+				41C9BFCA146074B100F83536 /* AppDelegate.m */,
+				41C9BFCF146074B100F83536 /* ViewController.h */,
+				41C9BFD0146074B100F83536 /* ViewController.m */,
+				41C2C29D14D77CC10041FF2A /* ViewController.xib */,
 				41C9BFC1146074B100F83536 /* Supporting Files */,
 			);
 			path = "Simple Light";
@@ -124,10 +202,45 @@
 		41C9BFC1146074B100F83536 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				411ED65C1462155900A28DFD /* Default.png */,
+				411ED65A1462153B00A28DFD /* Default@2x.png */,
+				410BEC33146245B6005A6916 /* icon114.png */,
+				410BEC31146245B3005A6916 /* icon57.png */,
 				41C9BFC2146074B100F83536 /* Simple Light-Info.plist */,
 				41C9BFC3146074B100F83536 /* InfoPlist.strings */,
 				41C9BFC6146074B100F83536 /* main.m */,
 				41C9BFC8146074B100F83536 /* Simple Light-Prefix.pch */,
+				41C9C0431460AAC400F83536 /* callout.png */,
+				41C9C0441460AAC400F83536 /* callout@2x.png */,
+				411ED65014620A0E00A28DFD /* brightness-normal@2x.png */,
+				411ED65114620A0E00A28DFD /* brightness-normal.png */,
+				411ED65214620A0E00A28DFD /* brightness-pressed.png */,
+				411ED65314620A0E00A28DFD /* brightness-pressed@2x.png */,
+				41C9C01014609E7300F83536 /* battery-0.75@2x.png */,
+				41C9C02D14609E9E00F83536 /* battery-0.75.png */,
+				41C9C01114609E7300F83536 /* battery-1.0@2x.png */,
+				41C9C02F14609EA900F83536 /* battery-1.0.png */,
+				41C9C01214609E7300F83536 /* battery-0.5@2x.png */,
+				41C9C03114609EB500F83536 /* battery-0.5.png */,
+				41C9C01314609E7300F83536 /* battery-0.25@2x.png */,
+				41C9C03514609EFF00F83536 /* battery-0.25.png */,
+				41C9C01414609E7300F83536 /* battery-0.0@2x.png */,
+				41C9C03714609F0A00F83536 /* battery-0.0.png */,
+				41C9C01514609E7300F83536 /* strobe-normal@2x.png */,
+				41C9C03314609ED400F83536 /* strobe-normal.png */,
+				41C9C00E14609E7300F83536 /* strobe-highlighted@2x.png */,
+				41C9C02914609E8900F83536 /* strobe-highlighted.png */,
+				41C9C00F14609E7300F83536 /* strobe-pressed@2x.png */,
+				41C9C02B14609E9400F83536 /* strobe-pressed.png */,
+				41C9C00D14609E7300F83536 /* main-pressed@2x.png */,
+				41C9C02714609E8100F83536 /* main-pressed.png */,
+				41C9C03914609F3800F83536 /* main-highlighted.png */,
+				41C9C03B14609F4600F83536 /* main-highlighted@2x.png */,
+				41C9C03D14609F7300F83536 /* main-normal@2x.png */,
+				41C9C03E14609F7300F83536 /* main-normal.png */,
+				41C9C01814609E7300F83536 /* background@2x.png */,
+				41C9C01914609E7300F83536 /* light@2x.png */,
+				41C9C04114609F9C00F83536 /* light.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -197,6 +310,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Meek Apps";
 			};
 			buildConfigurationList = 41C9BFB0146074B100F83536 /* Build configuration list for PBXProject "Simple Light" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -222,7 +336,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C9BFC5146074B100F83536 /* InfoPlist.strings in Resources */,
-				41C9BFCE146074B100F83536 /* MainStoryboard.storyboard in Resources */,
+				41C9C01A14609E7300F83536 /* main-pressed@2x.png in Resources */,
+				41C9C01B14609E7300F83536 /* strobe-highlighted@2x.png in Resources */,
+				41C9C01C14609E7300F83536 /* strobe-pressed@2x.png in Resources */,
+				41C9C01D14609E7300F83536 /* battery-0.75@2x.png in Resources */,
+				41C9C01E14609E7300F83536 /* battery-1.0@2x.png in Resources */,
+				41C9C01F14609E7300F83536 /* battery-0.5@2x.png in Resources */,
+				41C9C02014609E7300F83536 /* battery-0.25@2x.png in Resources */,
+				41C9C02114609E7300F83536 /* battery-0.0@2x.png in Resources */,
+				41C9C02214609E7300F83536 /* strobe-normal@2x.png in Resources */,
+				41C9C02514609E7300F83536 /* background@2x.png in Resources */,
+				41C9C02614609E7300F83536 /* light@2x.png in Resources */,
+				41C9C02814609E8100F83536 /* main-pressed.png in Resources */,
+				41C9C02A14609E8900F83536 /* strobe-highlighted.png in Resources */,
+				41C9C02C14609E9400F83536 /* strobe-pressed.png in Resources */,
+				41C9C02E14609E9E00F83536 /* battery-0.75.png in Resources */,
+				41C9C03014609EA900F83536 /* battery-1.0.png in Resources */,
+				41C9C03214609EB500F83536 /* battery-0.5.png in Resources */,
+				41C9C03414609ED400F83536 /* strobe-normal.png in Resources */,
+				41C9C03614609EFF00F83536 /* battery-0.25.png in Resources */,
+				41C9C03814609F0A00F83536 /* battery-0.0.png in Resources */,
+				41C9C03A14609F3800F83536 /* main-highlighted.png in Resources */,
+				41C9C03C14609F4600F83536 /* main-highlighted@2x.png in Resources */,
+				41C9C03F14609F7300F83536 /* main-normal@2x.png in Resources */,
+				41C9C04014609F7300F83536 /* main-normal.png in Resources */,
+				41C9C04214609F9C00F83536 /* light.png in Resources */,
+				41C9C0451460AAC400F83536 /* callout.png in Resources */,
+				41C9C0461460AAC400F83536 /* callout@2x.png in Resources */,
+				411ED65414620A0E00A28DFD /* brightness-normal@2x.png in Resources */,
+				411ED65514620A0E00A28DFD /* brightness-normal.png in Resources */,
+				411ED65614620A0E00A28DFD /* brightness-pressed.png in Resources */,
+				411ED65714620A0E00A28DFD /* brightness-pressed@2x.png in Resources */,
+				411ED65B1462153B00A28DFD /* Default@2x.png in Resources */,
+				411ED65D1462155900A28DFD /* Default.png in Resources */,
+				410BEC32146245B3005A6916 /* icon57.png in Resources */,
+				410BEC34146245B6005A6916 /* icon114.png in Resources */,
+				41C2C29E14D77CC10041FF2A /* ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +407,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				41C9BFC7146074B100F83536 /* main.m in Sources */,
-				41C9BFCB146074B100F83536 /* SLAppDelegate.m in Sources */,
-				41C9BFD1146074B100F83536 /* SLViewController.m in Sources */,
+				41C9BFCB146074B100F83536 /* AppDelegate.m in Sources */,
+				41C9BFD1146074B100F83536 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,14 +437,6 @@
 				41C9BFC4146074B100F83536 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		41C9BFCC146074B100F83536 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				41C9BFCD146074B100F83536 /* en */,
-			);
-			name = MainStoryboard.storyboard;
 			sourceTree = "<group>";
 		};
 		41C9BFE1146074B100F83536 /* InfoPlist.strings */ = {
@@ -357,10 +498,14 @@
 		41C9BFEA146074B100F83536 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Mike Keller (V3BTWKWZ23)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Light/Simple Light-Prefix.pch";
 				INFOPLIST_FILE = "Simple Light/Simple Light-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "CF3138CC-B756-4FF3-8B20-62FCF52140E0";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -368,10 +513,15 @@
 		41C9BFEB146074B100F83536 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Mike Keller";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Simple Light/Simple Light-Prefix.pch";
 				INFOPLIST_FILE = "Simple Light/Simple Light-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "6EF6757D-73FB-4D97-BB0D-49A4A9C74FB5";
+				SKIP_INSTALL = NO;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -429,6 +579,7 @@
 				41C9BFEB146074B100F83536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41C9BFEC146074B100F83536 /* Build configuration list for PBXNativeTarget "Simple LightTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +588,7 @@
 				41C9BFEE146074B100F83536 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

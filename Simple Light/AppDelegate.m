@@ -1,20 +1,34 @@
 //
-//  SLAppDelegate.m
+//  AppDelegate.m
 //  Simple Light
 //
 //  Created by Mike Keller on 11/1/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Copyright (c) 2011 Meek Apps. All rights reserved.
 //
 
-#import "SLAppDelegate.h"
+#import "AppDelegate.h"
+#import "ViewController.h"
 
-@implementation SLAppDelegate
+@implementation AppDelegate
 
 @synthesize window = _window;
+@synthesize viewController = _viewController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    
+    //Turn off idle timer (auto-lock)
+    [[UIApplication sharedApplication] setIdleTimerDisabled:YES];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    // Override point for customization after application launch.
+    self.viewController = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    self.window.rootViewController = self.viewController;
+    
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 							
@@ -46,6 +60,8 @@
     /*
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
+    
+    [[NSNotificationCenter defaultCenter] postNotificationName:@"kAppBecameActive" object:nil];
 }
 
 - (void)applicationWillTerminate:(UIApplication *)application
